@@ -23,6 +23,7 @@ $ npm install --save couchdb-backup-restore
 
 ```js
 var cbr = require('couchdb-backup-restore');
+var fs = require('fs')
 
 var config = {credentials: 'http://localhost:5984'};
 
